@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_element"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Name"
+        android:minHeight="48dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextFaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextStudent"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Faculty"
+        android:minHeight="48dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextFaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextStudent"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Faculty"
+        android:minHeight="48dp"
+        />
+
+    <Button
+        android:id="@+id/save_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@+id/editTextPopulation"
+        android:text="Save"
+        />
+
+</RelativeLayout>
